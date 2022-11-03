@@ -17,8 +17,7 @@
     "illuminate/contracts": "^8.0",
     "illuminate/macroable": "^8.0",
     "illum/translation": "v1.*",
-    "illum/support": "v1.*",
-    "cakephp/chronos": "^2.3"
+    "illum/support": "v1.*"
   },
   "scripts": {
     "test" : "vendor/bin/pest"
@@ -35,6 +34,7 @@
   },
   "require-dev": {
     "symfony/var-dumper": "^5.4",
+    "cakephp/chronos": "^2.3",
     "pestphp/pest": "^1.22",
     "mockery/mockery": "^1.5",
     "illuminate/translation": "v8.*",
