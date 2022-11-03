@@ -16,11 +16,9 @@
     "illuminate/container": "^8.0",
     "illuminate/contracts": "^8.0",
     "illuminate/macroable": "^8.0",
-    "illum/support": "v1.*",
     "illum/translation": "v1.*",
-    "symfony/http-foundation": "^5.4",
-    "cakephp/chronos": "^2.3",
-    "symfony/mime": "^5.4"
+    "illum/support": "v1.*",
+    "cakephp/chronos": "^2.3"
   },
   "scripts": {
     "test" : "vendor/bin/pest"

@@ -24,3 +24,7 @@
 
 ### illum Validation
 **illum validation** é um validador baseado no illuminate/validation sem illuminate/support original que traz 3mb amais de pacotes como dependencias para o projeto
+
+### A fazer
+
+- [ ] Fazer validacão de arquivo funcionar (sem http foundation e mime) atualmente nao esta funcionando!
