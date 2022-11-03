@@ -1,0 +1,50 @@
+{
+  "name": "illum/validation",
+  "type": "library",
+  "description": "Validador baseado no illuminate/validation",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alessandro Amos",
+      "email": "alessandroamos00@gmail.coms"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "illuminate/collections": "^8.0",
+    "illuminate/container": "^8.0",
+    "illuminate/contracts": "^8.0",
+    "illuminate/macroable": "^8.0",
+    "illum/support": "v1.*",
+    "illum/translation": "v1.*",
+    "symfony/http-foundation": "^5.4",
+    "cakephp/chronos": "^2.3",
+    "symfony/mime": "^5.4"
+  },
+  "scripts": {
+    "test" : "vendor/bin/pest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Illum\\Validation\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Illum\\Tests\\Validation\\": "tests"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.4",
+    "pestphp/pest": "^1.22",
+    "mockery/mockery": "^1.5",
+    "illuminate/translation": "v8.*",
+    "ext-json": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
